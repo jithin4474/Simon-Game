@@ -37,7 +37,7 @@ function checkAnswer(currentLevel){
 
       if(compColorPat[currentLevel]===usercolorPat[currentLevel])
       {
-        console.log("success");
+        
            if(usercolorPat.length===compColorPat.length)
            {
              setTimeout(function() {
